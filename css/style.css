@@ -2438,12 +2438,25 @@ body.ie {
     margin: 0px 0px 50px 0px;
   }
 
+  .hero__title {
+    text-align: center;
+  }
+
+  .hero__title:after {
+    display: block;
+  }
+
   .hero__dots {
     display: none;
   }
 
   .request__title {
     text-align: center;
+    margin: 0 auto;
+  }
+
+  .request__form {
+    margin: 0 auto;
   }
 
   .colors__item {
@@ -2516,6 +2529,10 @@ body.ie {
 
   .footer__btn {
     margin: 0 auto;
+  }
+
+  .hero__title {
+    font-size: 37px;
   }
 
   .areas__item {
