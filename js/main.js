@@ -231,7 +231,7 @@ $(".goto").click(function () {
 });
 
 window.addEventListener("scroll", function (e) {
-   if (window.scrollY > header.getBoundingClientRect().top + 100) {
+   if (window.scrollY > header.getBoundingClientRect().top + 70) {
       header.classList.add("scrolled");
       return;
    }
